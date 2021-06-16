@@ -1,3 +1,5 @@
+document.addEventListener('contextmenu', event => event.preventDefault());
+
 if (!window.Notification) {
     console.log('Browser does not support notifications.');
 } else {
