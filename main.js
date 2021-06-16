@@ -35,6 +35,7 @@ function notifyMe() {
             var notify = new Notification('Hi there!', {
                 body: 'How are you doing?',
                 icon: 'https://bit.ly/2DYqRrh',
+                footer: 'Mark as read',
             });
         } else {
             Notification.requestPermission().then(function (p) {
